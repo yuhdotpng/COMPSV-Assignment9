@@ -1,0 +1,7 @@
+A graph is the right structure to represent a social network (or at least a good one in my opinion) is very interconnected without necessarily being hierarchical; this
+suits graph structures perfectly. The issue that would come with using something like a list or tree is that it wouldn't fit as neatly as with a graph and what I mean by that is
+a list isn't interconnected in the way a graph is, even a linked list each node just points to the next without being able to show multiple relationships without much more
+finagling. On the other hand a tree while being interconnected is inherently hierarchical which, as we've established, in a good social network there's little to no hierarchy
+so a tree would fit something like a company management structure much better than a social network. One of the trade offs I noted with the graph, specifically considering we're
+using adjacency lists and not matrices is that checking for a friendship between people is comparably very slow. In larger data sets this can definitely cause some issues but
+the gain from that being finding all friendships for a person is very fast, as well as it has less memory usage than a matrix would. 
